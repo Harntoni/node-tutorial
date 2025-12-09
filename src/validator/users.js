@@ -8,4 +8,5 @@ export const signupuserSchema = joi.object({
     password: joi.string().required(),
     role: joi.string().required(),
     createdAt: joi.string().required().isoDate(),
+    accountType: joi.string().required()
 });
